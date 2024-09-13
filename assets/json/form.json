@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Title 1",
+        "fields": [
+            {
+                "label": "First Name ",
+                "fieldType": "TextInput"
+            },
+            {
+                "label": "Last Name",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Email",
+        "fields": [
+            {
+                "label": "Email",
+                "fieldType": "EmailInput"
+            }
+        ]
+    },
+    {
+        "title": "Password",
+        "fields": [
+            {
+                "label": "Password",
+                "fieldType": "PasswordInput"
+            }
+        ]
+    },
+    {
+        "title": "",
+        "fields": [
+            {
+                "label": "Date time",
+                "fieldType": "DatetimePicker"
+            },
+            {
+                "label": "T&C",
+                "fieldType": "SwitchInput"
+            },
+            {
+                "label": "Check Box",
+                "fieldType": "CheckBoxInput"
+            },
+            {
+                "label": "Select",
+                "fieldType": "SelectList",
+                "options": [
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Option Label 1",
+                        "optionValue": "Option 1"
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Option Label 2",
+                        "optionValue": "Option 2"
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Option Label 3",
+                        "optionValue": "Option 3"
+                    }
+                ]
+            },
+            {
+                "label": "Select radio",
+                "fieldType": "SelectRadio",
+                "options": [
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Option Label 1",
+                        "optionValue": "Option 1",
+                        "index": 0
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Option Label 2",
+                        "optionValue": "Option 2",
+                        "index": 1
+                    }
+
+                ]
+            }
+        ]
+    }
+]
